@@ -1,0 +1,28 @@
+{
+    "name": "paydunya/paydunya",
+    "description": "PAYDUNYA PHP CLIENT",
+    "license": "MIT",
+    "keywords": [
+        "Paiement", "paiement en ligne", "Sénégal",
+        "Plateforme de paiement en ligne Afrique", "Paiement Sénégal",
+        "Passerelle de paiement en ligne", "PAYDUNYA", "paydunya", "paydunya.com",
+        "Marchand en ligne", "payment gateway", "payment gateway Africa",
+        "online payment gateway", "mobile payments", "best payment gateway",
+        "orange money", "client php", "api", "php client", "library"
+    ],
+    "authors": [
+        {
+            "name": "PAYDUNYA",
+            "email": "paydunya@paydunya.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "rmccue/requests": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Paydunya\\": "src/"
+        }
+    }
+}
